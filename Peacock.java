@@ -1,14 +1,32 @@
-// Name: Tony Coraggio
-// Date: 4/19/2023
-// Description: Peacock class that extends the Animal class
+/**
+ * Peacock Class
+ * Extends Animal.java
+ * @author Tony Coraggio
+ */
 
 public class Peacock extends Animal {
-   public abstract void sound() {
-      System.out.println(name + " makes the noise: 'SQUAHHHH!!'");
+
+   /**
+    * A constructor method that takes in a name.
+    * @param name Name of the animal.
+    */
+   public Peacock(String name) {
+      super(name);
    }
    
-   public abstract void play() {
-      System,out.println(name + " likes to flaunt their pretty feathers");
+   /**
+    * A sound method that displays the noise a peacock makes.
+    */
+   @Override
+   public void sound() {
+      System.out.println(this.name + " makes the noise: 'SQUAHHHH!!'");
    }
-
+   
+   /**
+    * A play method that displays how a peacock has fun.
+    */
+   @Override
+   public void play() {
+      System.out.println(this.name + " likes to flaunt their pretty feathers");
+   }
 }
