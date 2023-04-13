@@ -14,7 +14,7 @@ public class BlackBear extends Animal {
    }
    
    /**
-   * Prints a message for an animal making a sound.
+   * Prints a message for a black bear making a sound.
    */
    @Override
    public void sound(){
@@ -22,7 +22,7 @@ public class BlackBear extends Animal {
    }
    
    /**
-   * Prints a message for the animal playing.
+   * Prints a message for a black bear playing.
    */
    @Override
    public void play(){
@@ -30,7 +30,7 @@ public class BlackBear extends Animal {
    }
    
    /**
-   * Prints a message for an animal eating.
+   * Prints a message for a black bear eating.
    */
    @Override
    public void eat(){
