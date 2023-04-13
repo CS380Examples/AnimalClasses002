@@ -1,7 +1,7 @@
 /**
 *Abstract class Animal. Any class that extends this class
 *will have to override all of the abstract methods. 
-*@author Dmytro
+*@author Dmytro Dovhalets
 */
 public abstract class Animal{
    
