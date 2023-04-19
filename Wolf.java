@@ -1,4 +1,8 @@
-
+/**
+ * Wolf class exdends to Animal class
+ * @author Bayasgalan
+ *
+ */
 
 public class Wolf extends Animal {
 	
@@ -19,7 +23,7 @@ public class Wolf extends Animal {
 		System.out.println(this.name + "Awoooooo");
 	}
    
-   
+	@Override
    /**
     * Abstract method that should represent a specific  activity
     * that an animal does for fun.
@@ -29,7 +33,7 @@ public class Wolf extends Animal {
 
    }
    
-   
+	@Override
    /**
     * A  method that prints out that the animal is eating food.
     */
