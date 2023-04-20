@@ -31,10 +31,14 @@ public class Elk extends Animal{
     * A  method that prints out that the animal is eating food.
     */
    public void eat(){
-      System.out.println(this.name + " eats mushrooms.");
+      System.out.println(this.name + "eats mushrooms.");
    }
-
-
-
+   
+   public static void main(String[] args){
+      Elk elk = new Elk("Elk ");
+      elk.sound();
+      elk.play();
+      elk.eat();
+   }
 
 }
